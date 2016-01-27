@@ -36,14 +36,11 @@
             top: -1px;
             right: 100px;
         }
-        #textArea {
-            font-weight: bold;
+		#form{
+			font-weight: bold;
             font-size: 125%;
             margin: 5px;
-        }
-        #textAreaURL {
-
-        }
+		}
     </style>
 
 </head>
@@ -52,11 +49,11 @@
       <div id="title">
           <h1 id="titleText">Twitcher</h1>
       </div>
-      <p id="textArea">URL: <input id="textAreaURL" name="URL" value="" type="text" class="form-control">
-      </p>
-      <p id="textArea">Directory: <input id="textAreaURL" name="Save" value="" type="text" class="form-control">
-      </p>
+	  <div id="form">
+      URL: <input id="URLTextBox" name="URL" value="" type="text" class="form-control">
+      Directory: <input id="DirTextBox" name="Save" value="" type="text" class="form-control">
       <button id="confirmBtn" type="button" class="btn btn-success">Confirm</button>
+	  </div>
   </div>
   <script src="js/logicJS.js"></script>
   <script src="js/jquery-1.12.0.min.js"></script>
