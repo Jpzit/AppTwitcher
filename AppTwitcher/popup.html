@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitcher, record your favorite video</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Twitch;
+            src: url(DIMIS.TTF);
+        }
+        #popup {
+            width: 400px;
+            height: 600px;
+            background-color: #9370DB;
+        }
+        #title {
+            white-space: pre;
+            text-align: center;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 400px;
+            height: 100px;
+            background-color: #4B0082;
+            color: white;
+            text-shadow: 3px 3px black;
+            border-color: black;
+            font-family: Twitch;
+            font-size: 200%;
+        }
+        #titleText {
+            position: absolute;
+            top: -1px;
+            right: 100px;
+        }
+        #textArea {
+            font-weight: bold;
+            font-size: 125%;
+            margin: 5px;
+        }
+        #textAreaURL {
+
+        }
+    </style>
+
+</head>
+  <body>
+  <div id="popup">
+      <div id="title">
+          <h1 id="titleText">Twitcher</h1>
+      </div>
+      <p id="textArea">URL: <input id="textAreaURL" name="URL" value="" type="text" class="form-control">
+      </p>
+      <p id="textArea">Directory: <input id="textAreaURL" name="Save" value="" type="text" class="form-control">
+      </p>
+      <button type="button" class="btn btn-success">Record</button>
+  </div>
+  </body>
+</html>
+

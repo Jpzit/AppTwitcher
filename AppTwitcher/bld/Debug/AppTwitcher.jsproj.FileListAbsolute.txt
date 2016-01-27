@@ -1,0 +1,15 @@
+C:\AppTwitcher\AppTwitcher\bin\Debug\ReverseMap\resources.pri
+C:\AppTwitcher\AppTwitcher\bin\Debug\AppxManifest.xml
+C:\AppTwitcher\AppTwitcher\bin\Debug\AppTwitcher.build.appxrecipe
+C:\AppTwitcher\AppTwitcher\bld\Debug\priconfig.xml
+C:\AppTwitcher\AppTwitcher\bld\Debug\priconfig.xml.intermediate
+C:\AppTwitcher\AppTwitcher\bld\Debug\layout.resfiles
+C:\AppTwitcher\AppTwitcher\bld\Debug\layout.resfiles.intermediate
+C:\AppTwitcher\AppTwitcher\bld\Debug\resources.resfiles
+C:\AppTwitcher\AppTwitcher\bld\Debug\resources.resfiles.intermediate
+C:\AppTwitcher\AppTwitcher\bld\Debug\pri.resfiles
+C:\AppTwitcher\AppTwitcher\bld\Debug\pri.resfiles.intermediate
+C:\AppTwitcher\AppTwitcher\bld\Debug\qualifiers.txt
+C:\AppTwitcher\AppTwitcher\bld\Debug\qualifiers.txt.intermediate
+C:\AppTwitcher\AppTwitcher\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\AppTwitcher\AppTwitcher\bld\Debug\ProjectArchitectures.txt
