@@ -12,11 +12,13 @@
             font-family: Twitch;
             src: url(DIMIS.TTF);
         }
+
         #popup {
             width: 400px;
             height: 600px;
             background-color: #9370DB;
         }
+
         #title {
             white-space: pre;
             text-align: center;
@@ -31,36 +33,34 @@
             font-family: Twitch;
             font-size: 200%;
         }
+
         #titleText {
             position: absolute;
             top: -1px;
             right: 100px;
         }
-        #textArea {
+
+        #form {
             font-weight: bold;
             font-size: 125%;
             margin: 5px;
         }
-        #textAreaURL {
-
-        }
     </style>
 
 </head>
-  <body>
-  <div id="popup">
-      <div id="title">
-          <h1 id="titleText">Twitcher</h1>
-      </div>
-      <p id="URLTextBox">URL: <input id="textAreaURL" name="URL" value="" type="text" class="form-control">
-      </p>
-      <p id="textArea">Directory: <input id="textAreaURL" name="Save" value="" type="text" class="form-control">
-      </p>
-      <button id="confirmBtn" type="button" class="btn btn-success">Confirm</button>
-  </div>
-  <script src="js/logicJS.js"></script>
-  <script src="js/jquery-1.12.0.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  </body>
+<body>
+    <div id="popup">
+        <div id="title">
+            <h1 id="titleText">Twitcher</h1>
+        </div>
+        <div id="form">
+            URL: <input id="URLTextBox" name="URL" value="" type="text" class="form-control">
+            Directory: <input id="DirTextBox" name="Save" value="" type="text" class="form-control">
+            <button id="confirmBtn" type="button" class="btn btn-success">Confirm</button>
+        </div>
+    </div>
+    <script src="js/logicJS.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
-
