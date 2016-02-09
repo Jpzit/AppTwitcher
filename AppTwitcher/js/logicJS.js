@@ -1,8 +1,11 @@
 function alertNotLive(){
-  alert("Stream is not currently live.");
+	alert("Stream is not currently live.");
 }
 function alertLive(){
 	alert("Stream is live.");
+}
+function record(){
+	window.open('StartRecording.bat');
 }
 function checkIfLive(){
     var URL = document.getElementById('URLTextBox').value;
@@ -17,8 +20,11 @@ function checkIfLive(){
 		});
 }
 
+
 var confirmBtn = document.getElementById('confirmBtn');
 confirmBtn.addEventListener('click', checkIfLive);
 
+var recordBtn = document.getElementById('recordBtn');
+confirmBtn.addEventListener('click', record);
 
 
